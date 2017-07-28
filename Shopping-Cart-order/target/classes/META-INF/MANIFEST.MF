@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1501261680752
+Build-Jdk: 1.8.0_131
+Built-By: Ahsan Khan
+Bundle-Description: order management
+Bundle-ManifestVersion: 2
+Bundle-Name: order
+Bundle-SymbolicName: com.engineers.learner.Shopping-Cart-order
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.engineers.learner.order.entity;uses:="com.engineers.
+ learner.delivery.address.entity,com.engineers.learner.customers.entity,
+ com.engineers.learner.categories.entity";version="0.0.1.SNAPSHOT",com.e
+ ngineers.learner.order;version="0.0.1.SNAPSHOT"
+Import-Package: com.engineers.learner.categories.entity;version="[0.0,1)
+ ",com.engineers.learner.customers.entity;version="[0.0,1)",com.engineer
+ s.learner.delivery.address.entity;version="[0.0,1)"
+Tool: Bnd-1.50.0

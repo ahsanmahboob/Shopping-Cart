@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.engineers.learner</groupId>
+		<artifactId>Shopping-Cart</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>Shopping-Cart-order</artifactId>
+	<packaging>bundle</packaging>
+	<name>order</name>
+	<description>order management</description>
+
+	<dependencies>
+		<dependency>
+			<artifactId>Shopping-Cart-customers</artifactId>
+			<groupId>com.engineers.learner</groupId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<artifactId>Shopping-Cart-delivery-address</artifactId>
+			<groupId>com.engineers.learner</groupId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<artifactId>Shopping-Cart-categories</artifactId>
+			<groupId>com.engineers.learner</groupId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
