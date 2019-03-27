@@ -52,4 +52,20 @@
 		<module>Shopping-Cart-categories</module>
 		<module>Shopping-Cart-order</module>
 	</modules>
+	
+<distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+<settings>
+  <servers>
+    <server>
+      <id>nexus-snapshots</id>
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
+</settings>
 </project>
