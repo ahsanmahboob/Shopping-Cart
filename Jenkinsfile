@@ -3,6 +3,6 @@ node{
   git 'https://github.com/ahsanmahboob/Shopping-Cart'
   }
   stage('Compile-Package'){
-  sh 'mvn clean install'
+  sh 'mvn clean deploy'
   }
 }
