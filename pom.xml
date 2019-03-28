@@ -59,7 +59,7 @@
 <distributionManagement>
     <snapshotRepository>
       <id>1234</id>
-      <url>http://localhost:8081/repository/maven-releases/</url>
+      <url>http://localhost:8081/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
